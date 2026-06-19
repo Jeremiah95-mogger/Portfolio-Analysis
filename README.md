@@ -1,24 +1,61 @@
-# Portfolio Analysis Using CAPM and Modern Portfolio Theory
+# Portfolio Risk-Return Analysis | KSE-100 Listed Equities (2019–2025)
 
-This project analyzes the risk and return characteristics of a diversified equity portfolio comprising four companies listed on the KSE-100 Index: Bank AL Habib, Cynergico, Lucky Cement, and Fauji Fertilizer Company. Historical daily closing price data for the selected companies and the KSE-100 Index were collected for the period from January 1, 2019, to December 31, 2025.
+## Project Overview
 
-Using Microsoft Excel, daily returns were calculated for each stock and the market index. Key performance and risk measures, including average return, standard deviation, and coefficient of variation, were computed to evaluate the risk-return profile of each security. Scatter plots were created to visualize the relationship between individual stock returns and market returns, and regression analysis was performed to estimate each stock's beta relative to the KSE-100 Index.
+Conducted a seven-year quantitative analysis of four KSE-100 listed companies—Bank AL Habib, Cnergyico, Lucky Cement, and Fauji Fertilizer Company—to evaluate risk-adjusted performance and develop a CAPM-based investment assessment.
 
-A portfolio was then constructed with weights of 30%, 30%, 20%, and 10% assigned to Bank AL Habib, Cynergico, Lucky Cement, and Fauji Fertilizer Company, respectively. The portfolio beta was calculated as 1.0804, indicating slightly higher systematic risk than the overall market.
+## Methodology
 
-To assess the impact of diversification, the portfolio was incorporated into an existing investment portfolio containing Stocks A, B, and C with betas of 0.769, 0.985, and 1.423. Using the specified asset allocations, the beta of the expanded portfolio was calculated as 1.064.
+### Data Collection
 
-The Capital Asset Pricing Model (CAPM) was then applied to estimate the required return of the expanded portfolio. A risk-free rate of 11.75% (based on the 12-month Treasury Bill rate as of April 2026) and the average KSE-100 market return were used in the analysis. The resulting required return was 24.64%.
+* Collected and cleaned approximately 1,730 trading days of historical closing price data (January 2019 – December 2025) for the selected companies and the KSE-100 Index.
 
-Finally, the Security Market Line (SML) was plotted to evaluate the relative valuation of the selected securities. The analysis indicated that Fauji Fertilizer Company was undervalued, as it plotted above the SML, while Bank AL Habib, Cynergico, and Lucky Cement appeared overvalued, as they plotted below the SML.
+### Risk and Return Analysis
 
-## Tools & Techniques
+* Calculated daily returns and average returns for each stock and the KSE-100 Index.
+* Computed standard deviation and coefficient of variation to assess the risk-return characteristics of each security.
+
+### Beta Estimation
+
+* Estimated each stock's beta by running regressions of individual stock returns against KSE-100 Index returns.
+* Constructed scatter plots to visualize the relationship between stock returns and market returns.
+
+### Portfolio Construction
+
+* Developed a four-stock portfolio with weights of 30%, 30%, 20%, and 10%, respectively.
+* Calculated the portfolio beta and required return.
+
+### Diversification Analysis
+
+* Integrated the portfolio into an expanded portfolio containing three additional stocks (A, B, and C) to evaluate the effects of diversification.
+* Determined the beta of the expanded portfolio based on the specified asset allocations.
+
+### CAPM and Valuation Analysis
+
+* Applied the Capital Asset Pricing Model (CAPM) using the 12-month Treasury Bill rate as the risk-free rate and the average KSE-100 return as the market return.
+* Estimated the required return for the expanded portfolio.
+* Constructed the Security Market Line (SML) and assessed the relative valuation of each stock based on its risk-return profile.
+
+## Key Findings
+
+* The four-stock portfolio produced a beta of 1.08, indicating slightly higher systematic risk than the market.
+* Fauji Fertilizer Company emerged as the only undervalued stock, generating an average return of approximately 29.8% while maintaining a beta of 0.71.
+* Bank AL Habib, Lucky Cement, and Cnergyico were identified as overvalued, as they plotted below the Security Market Line.
+* The expanded six-asset portfolio generated a required return of 24.6%, based on a risk-free rate of 11.75%.
+* The analysis demonstrated how portfolio diversification influences systematic risk while highlighting the importance of CAPM in investment decision-making.
+
+## Tools and Techniques
 
 * Microsoft Excel
-* Portfolio Analysis
-* Risk & Return Analysis
 * Regression Analysis
+* Risk and Return Analysis
+* Portfolio Construction
 * Beta Estimation
 * Capital Asset Pricing Model (CAPM)
 * Security Market Line (SML)
 * Data Visualization
+
+## Outcome
+
+This project strengthened my ability to transform raw financial data into meaningful investment insights by combining statistical analysis, portfolio theory, and financial valuation techniques. It provided practical experience in evaluating risk-adjusted returns and applying financial models to support data-driven investment decisions.
+
